@@ -6,7 +6,7 @@
         "en": "Self hosted, note taking application",
         "fr": "Application de prise de notes auto-hébergée"
     },
-    "version": "1.0~ynh1",
+    "version": "1.0.0~ynh1",
     "url": "https://alextselegidis.com/get/plainpad",
     "upstream": {
         "license": "AGPL-3.0-only",
