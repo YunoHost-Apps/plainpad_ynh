@@ -29,11 +29,11 @@ Self hosted, note taking application
 
 ## Configuration
 
-The default credentials are
+The default credentials are:
 ```
 username: admin@example.org
 password: 12345
-``
+```
 ## Documentation and resources
 
 * Official app website: https://alextselegidis.com/get/plainpad
