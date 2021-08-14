@@ -1,0 +1,52 @@
+{
+    "name": "Plainpad",
+    "id": "plainpad",
+    "packaging_format": 1,
+    "description": {
+        "en": "Self hosted, note taking application",
+        "fr": "Application de prise de notes auto-hébergée"
+    },
+    "version": "1.0~ynh1",
+    "url": "https://alextselegidis.com/get/plainpad",
+    "upstream": {
+        "license": "AGPL-3.0-only",
+        "website": "https://alextselegidis.com/get/plainpad",
+        "demo": "https://alextselegidis.com/try/plainpad/#/login",
+        "admindoc": "https://alextselegidis.com/get/plainpad/self-hosted",
+        "code": "https://github.com/alextselegidis/plainpad"
+    },
+    "license": "AGPL-3.0-only",
+    "maintainer": {
+        "name": "eric_G",
+        "email": ""
+    },
+    "requirements": {
+        "yunohost": ">= 4.2.4"
+    },
+    "multi_instance": true,
+    "services": [
+        "nginx",
+        "php7.3-fpm",
+        "mysql"
+    ],
+    "arguments": {
+        "install" : [
+            {
+                "name": "domain",
+                "type": "domain",
+                "example": "example.com"
+            },
+            {
+                "name": "path",
+                "type": "path",
+                "example": "/plainpad",
+                "default": "/plainpad"
+            },
+            {
+                "name": "is_public",
+                "type": "boolean",
+                "default": true
+            }
+        ]
+    }
+}

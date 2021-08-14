@@ -1,0 +1,7 @@
+SOURCE_URL=https://github.com/alextselegidis/plainpad/releases/download/1.0.0-beta.4/plainpad-1.0.0-beta.4.zip
+SOURCE_SUM=578252e15dbc16b63bf1ed7eedc0b1452ca67bf2d4f621c4439931710c3035d3
+SOURCE_SUM_PRG=sha256sum
+SOURCE_FORMAT=zip
+SOURCE_IN_SUBDIR=false
+SOURCE_FILENAME=
+SOURCE_EXTRACT=true
