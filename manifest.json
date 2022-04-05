@@ -3,8 +3,8 @@
     "id": "plainpad",
     "packaging_format": 1,
     "description": {
-        "en": "Self hosted, note taking application",
-        "fr": "Application de prise de notes auto-hébergée"
+        "en": "Note taking application",
+        "fr": "Prise de notes auto-hébergée"
     },
     "version": "1.0.0~ynh2",
     "url": "https://alextselegidis.com/get/plainpad",
