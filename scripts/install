@@ -122,7 +122,7 @@ chown $app:$app "$final_path/.env"
 ynh_script_progression --message="Migrating database..." --weight=1
 
 pushd "$final_path"
- 	php$phpversion artisan migrate:fresh --seed
+ 	php$phpversion artisan migrate:fresh -n --seed
 popd
 
 #=================================================
@@ -145,6 +145,7 @@ if [ $is_public -eq 1 ]
 then
 	ynh_permission_update --permission="main" --add="visitors"
 fi
+
 ynh_permission_create --permission="api" --url="/api" --allowed="visitors" --auth_header="false" --show_tile="false" --protected="true"
 
 #=================================================
