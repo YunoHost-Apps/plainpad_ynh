@@ -11,8 +11,8 @@ Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour
 
 ## Vue d'ensemble
 
-Plainpad is a self hosted, open source note taking application that is very easy to setup on your server. Your data will never leave your server and you will be able to access them from any device connected to the internet.
-With Plainpad you can allow multiple users to access the application without being able to see each other's notes. The notes are being encrypted and stored safely in the database.
+Plainpad est une application de prise de notes open source auto-hébergée qui est très facile à configurer sur votre serveur. Vos données ne quitteront jamais votre serveur et vous pourrez y accéder depuis n'importe quel appareil connecté à Internet.
+Avec Plainpad, vous pouvez autoriser plusieurs utilisateurs à accéder à l'application sans pouvoir voir les notes des autres. Les notes sont cryptées et stockées en toute sécurité dans la base de données. 
 
 **Version incluse :** 1.0.0~ynh2
 
