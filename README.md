@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # Plainpad for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/plainpad.svg)](https://dash.yunohost.org/appci/app/plainpad) ![Working status](https://ci-apps.yunohost.org/ci/badges/plainpad.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/plainpad.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/plainpad.svg)](https://dash.yunohost.org/appci/app/plainpad) ![Working status](https://ci-apps.yunohost.org/ci/badges/plainpad.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/plainpad.maintain.svg)
+
 [![Install Plainpad with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=plainpad)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -19,7 +20,6 @@ Plainpad is a self hosted, open source note taking application that is very easy
 With Plainpad you can allow multiple users to access the application without being able to see each other's notes. The notes are being encrypted and stored safely in the database.
 
 **Shipped version:** 1.0.0~ynh2
-
 
 **Demo:** https://alextselegidis.com/try/plainpad/#/login
 

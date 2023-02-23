@@ -5,27 +5,27 @@ It shall NOT be edited by hand.
 
 # Plainpad pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/plainpad.svg)](https://dash.yunohost.org/appci/app/plainpad) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/plainpad.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/plainpad.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/plainpad.svg)](https://dash.yunohost.org/appci/app/plainpad) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/plainpad.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/plainpad.maintain.svg)
+
 [![Installer Plainpad avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=plainpad)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer Plainpad rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer Plainpad rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 Plainpad est une application de prise de notes open source auto-hébergée qui est très facile à configurer sur votre serveur. Vos données ne quitteront jamais votre serveur et vous pourrez y accéder depuis n'importe quel appareil connecté à Internet.
 Avec Plainpad, vous pouvez autoriser plusieurs utilisateurs à accéder à l'application sans pouvoir voir les notes des autres. Les notes sont cryptées et stockées en toute sécurité dans la base de données. 
 
-**Version incluse :** 1.0.0~ynh2
-
+**Version incluse :** 1.0.0~ynh2
 
 **Démo :** https://alextselegidis.com/try/plainpad/#/login
 
-## Captures d'écran
+## Captures d’écran
 
-![Capture d'écran de Plainpad](./doc/screenshots/screenshot.png)
+![Capture d’écran de Plainpad](./doc/screenshots/screenshot.png)
 
 ## Avertissements / informations importantes
 
@@ -38,9 +38,9 @@ password: 12345
 ```
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://alextselegidis.com/get/plainpad>
-* Documentation officielle de l'admin : <https://alextselegidis.com/get/plainpad/self-hosted>
-* Dépôt de code officiel de l'app : <https://github.com/alextselegidis/plainpad>
+* Site officiel de l’app : <https://alextselegidis.com/get/plainpad>
+* Documentation officielle de l’admin : <https://alextselegidis.com/get/plainpad/self-hosted>
+* Dépôt de code officiel de l’app : <https://github.com/alextselegidis/plainpad>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_plainpad>
 * Signaler un bug : <https://github.com/YunoHost-Apps/plainpad_ynh/issues>
 
@@ -56,4 +56,4 @@ ou
 sudo yunohost app upgrade plainpad -u https://github.com/YunoHost-Apps/plainpad_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
