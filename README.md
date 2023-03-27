@@ -27,15 +27,6 @@ With Plainpad you can allow multiple users to access the application without bei
 
 ![Screenshot of Plainpad](./doc/screenshots/screenshot.png)
 
-## Disclaimers / important information
-
-## Configuration
-
-The default credentials are:
-```
-username: admin@example.org
-password: 12345
-```
 ## Documentation and resources
 
 * Official app website: <https://alextselegidis.com/get/plainpad>

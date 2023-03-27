@@ -27,15 +27,6 @@ Avec Plainpad, vous pouvez autoriser plusieurs utilisateurs à accéder à l'app
 
 ![Capture d’écran de Plainpad](./doc/screenshots/screenshot.png)
 
-## Avertissements / informations importantes
-
-## Configuration
-
-Les identifiants par défaut sont :
-```
-username: admin@example.org
-password: 12345
-```
 ## Documentations et ressources
 
 * Site officiel de l’app : <https://alextselegidis.com/get/plainpad>
