@@ -1,0 +1,67 @@
+packaging_format = 2
+
+id = "plainpad"
+name = "Plainpad"
+description.en = "Note taking application"
+description.fr = "Prise de notes auto-hébergée"
+
+version = "1.0.0~ynh3"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "AGPL-3.0-only"
+website = "https://alextselegidis.com/get/plainpad"
+demo = "https://alextselegidis.com/try/plainpad/#/login"
+admindoc = "https://alextselegidis.com/get/plainpad/self-hosted"
+code = "https://github.com/alextselegidis/plainpad"
+
+[integration]
+yunohost = ">= 11.1.16"
+architectures = "all"
+multi_instance = true
+ldap = false
+sso = false
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.path]
+    type = "path"
+    default = "/plainpad"
+
+    [install.init_main_permission]
+    help.en = "If enabled, Plainpad will be accessible by people who do not have an account. This can be changed later via the webadmin."
+    help.fr = "Si cette case est cochée, Plainpad sera accessible aux personnes n’ayant pas de compte. Vous pourrez changer ceci plus tard via la webadmin."
+    type = "group"
+    default = "visitors"
+
+[resources]
+
+        [resources.sources.main]
+        url = "https://github.com/alextselegidis/plainpad/releases/download/1.0.0-beta.4/plainpad-1.0.0-beta.4.zip"
+        sha256 = "578252e15dbc16b63bf1ed7eedc0b1452ca67bf2d4f621c4439931710c3035d3"
+        in_subdir = false
+        autoupdate.strategy = "latest_github_tag"
+        
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+    api.url = "/api"
+    api.allowed="visitors"
+    api.auth_header = false
+    api.show_tile = false
+    api.protected = true
+
+    [resources.apt]
+    packages = "mariadb-server php8.0-zip php8.0-fileinfo php8.0-xml php8.0-bcmath php8.0-mbstring php8.0-mysql"
+
+    [resources.database]
+    type = "mysql"
