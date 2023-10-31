@@ -32,7 +32,7 @@ With Plainpad you can allow multiple users to access the application without bei
 * Official app website: <https://alextselegidis.com/get/plainpad>
 * Official admin documentation: <https://alextselegidis.com/get/plainpad/self-hosted>
 * Upstream app code repository: <https://github.com/alextselegidis/plainpad>
-* YunoHost documentation for this app: <https://yunohost.org/app_plainpad>
+* YunoHost Store: <https://apps.yunohost.org/app/plainpad>
 * Report a bug: <https://github.com/YunoHost-Apps/plainpad_ynh/issues>
 
 ## Developer info
