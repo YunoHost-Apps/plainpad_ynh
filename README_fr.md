@@ -32,7 +32,7 @@ Avec Plainpad, vous pouvez autoriser plusieurs utilisateurs à accéder à l'app
 * Site officiel de l’app : <https://alextselegidis.com/get/plainpad>
 * Documentation officielle de l’admin : <https://alextselegidis.com/get/plainpad/self-hosted>
 * Dépôt de code officiel de l’app : <https://github.com/alextselegidis/plainpad>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_plainpad>
+* YunoHost Store: <https://apps.yunohost.org/app/plainpad>
 * Signaler un bug : <https://github.com/YunoHost-Apps/plainpad_ynh/issues>
 
 ## Informations pour les développeurs
