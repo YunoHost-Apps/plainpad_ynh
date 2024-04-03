@@ -5,7 +5,7 @@ name = "Plainpad"
 description.en = "Note taking application"
 description.fr = "Prise de notes auto-hébergée"
 
-version = "1.0.0~ynh3"
+version = "1.0.2024.04.02~ynh1"
 
 maintainers = []
 
@@ -43,8 +43,8 @@ ram.runtime = "50M"
 [resources]
 
         [resources.sources.main]
-        url = "https://github.com/alextselegidis/plainpad/releases/download/1.0.0-beta.4/plainpad-1.0.0-beta.4.zip"
-        sha256 = "578252e15dbc16b63bf1ed7eedc0b1452ca67bf2d4f621c4439931710c3035d3"
+        url = "https://github.com/alextselegidis/plainpad/archive/8793868136008aa18c51217abd40a643b04673cf.tar.gz"
+        sha256 = "4f93c2a78cb0b61489bdb24e0ad8cfd32bcb00ebbc1013543c8bcf3d4cc352ac"
         in_subdir = false
         autoupdate.strategy = "latest_github_commit"
         autoupdate.force_version = "1.0.%Y.%m.%d"
