@@ -28,20 +28,18 @@ chmod -R o-rwx "$install_dir"
 chown -R $app:www-data "$install_dir"
 
 #=================================================
-# NGINX CONFIGURATION
+# SYSTEM CONFIGURATION
 #=================================================
-ynh_script_progression --message="Configuring NGINX web server..." --weight=1
+ynh_script_progression --message="Adding system configurations related to $app..." --weight=1
 
 # Create a dedicated NGINX config
 ynh_add_nginx_config
 
-#=================================================
-# PHP-FPM CONFIGURATION
-#=================================================
-ynh_script_progression --message="Configuring PHP-FPM..." --weight=1
-
 # Create a dedicated PHP-FPM config
 ynh_add_fpm_config --usage=low --footprint=low
+
+# Use logrotate to manage application logfile(s)
+ynh_use_logrotate
 
 #=================================================
 # ADD A CONFIGURATION
@@ -61,16 +59,6 @@ ynh_script_progression --message="Migrating database..." --weight=1
 pushd "$install_dir"
  	php$phpversion artisan migrate:fresh -n --seed
 popd
-
-#=================================================
-# GENERIC FINALIZATION
-#=================================================
-# SETUP LOGROTATE
-#=================================================
-ynh_script_progression --message="Configuring log rotation..." --weight=1
-
-# Use logrotate to manage application logfile(s)
-ynh_use_logrotate
 
 #=================================================
 # END OF SCRIPT
