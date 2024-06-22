@@ -36,7 +36,7 @@ ynh_script_progression --message="Adding system configurations related to $app..
 ynh_add_nginx_config
 
 # Create a dedicated PHP-FPM config
-ynh_add_fpm_config --usage=low --footprint=low
+ynh_add_fpm_config
 
 # Use logrotate to manage application logfile(s)
 ynh_use_logrotate
@@ -46,7 +46,7 @@ ynh_use_logrotate
 #=================================================
 ynh_script_progression --message="Adding a configuration file..." --weight=1
 
-ynh_add_config --template="../conf/.env.example" --destination="$install_dir/.env"
+ynh_add_config --template=".env.example" --destination="$install_dir/.env"
 
 chmod 400 "$install_dir/.env"
 chown $app:$app "$install_dir/.env"
