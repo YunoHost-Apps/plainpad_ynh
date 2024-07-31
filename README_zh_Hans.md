@@ -5,7 +5,7 @@
 
 # YunoHost 上的 Plainpad
 
-[![集成程度](https://dash.yunohost.org/integration/plainpad.svg)](https://dash.yunohost.org/appci/app/plainpad) ![工作状态](https://ci-apps.yunohost.org/ci/badges/plainpad.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/plainpad.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/plainpad.svg)](https://ci-apps.yunohost.org/ci/apps/plainpad/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/plainpad.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/plainpad.maintain.svg)
 
 [![使用 YunoHost 安装 Plainpad](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=plainpad)
 

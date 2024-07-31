@@ -5,7 +5,7 @@ Il NE doit PAS être modifié à la main.
 
 # Plainpad pour YunoHost
 
-[![Niveau d’intégration](https://dash.yunohost.org/integration/plainpad.svg)](https://dash.yunohost.org/appci/app/plainpad) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/plainpad.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/plainpad.maintain.svg)
+[![Niveau d’intégration](https://dash.yunohost.org/integration/plainpad.svg)](https://ci-apps.yunohost.org/ci/apps/plainpad/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/plainpad.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/plainpad.maintain.svg)
 
 [![Installer Plainpad avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=plainpad)
 
