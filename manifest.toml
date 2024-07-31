@@ -49,8 +49,9 @@ ram.runtime = "50M"
     sha256 = "578252e15dbc16b63bf1ed7eedc0b1452ca67bf2d4f621c4439931710c3035d3"
     in_subdir = false
 
-    autoupdate.strategy = "latest_github_release"
-    autoupdate.asset = "^plainpad-.*\\.zip"
+    # Upstream has no proper tag nor releases ...
+    #autoupdate.strategy = "latest_github_release"
+    #autoupdate.asset = "^plainpad-.*\\.zip"
 
     [resources.system_user]
 
