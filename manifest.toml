@@ -46,8 +46,8 @@ ram.runtime = "50M"
 [resources]
 
     [resources.sources.main]
-    url = "https://github.com/alextselegidis/plainpad/releases/download/1.0.0-beta.4/plainpad-1.0.0-beta.4.zip"
-    sha256 = "578252e15dbc16b63bf1ed7eedc0b1452ca67bf2d4f621c4439931710c3035d3"
+    url = "https://github.com/alextselegidis/plainpad/releases/download/1.0.0/plainpad-1.0.0.zip"
+    sha256 = "7917e6c4f34f7b6a2095154e95fd5c989deed4f82a8d97e6fa99b534914c3603"
     in_subdir = false
 
     autoupdate.strategy = "latest_github_release"
