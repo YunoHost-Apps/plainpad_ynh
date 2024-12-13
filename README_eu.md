@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # Plainpad YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/plainpad.svg)](https://ci-apps.yunohost.org/ci/apps/plainpad/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/plainpad.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/plainpad.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/plainpad)](https://ci-apps.yunohost.org/ci/apps/plainpad/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/plainpad)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/plainpad)
 
 [![Instalatu Plainpad YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=plainpad)
 

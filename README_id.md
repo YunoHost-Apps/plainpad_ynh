@@ -5,7 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # Plainpad untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/plainpad.svg)](https://ci-apps.yunohost.org/ci/apps/plainpad/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/plainpad.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/plainpad.maintain.svg)
+[![Tingkat integrasi](https://apps.yunohost.org/badge/integration/plainpad)](https://ci-apps.yunohost.org/ci/apps/plainpad/)
+![Status kerja](https://apps.yunohost.org/badge/state/plainpad)
+![Status pemeliharaan](https://apps.yunohost.org/badge/maintained/plainpad)
 
 [![Pasang Plainpad dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=plainpad)
 
