@@ -9,8 +9,6 @@ source /usr/share/yunohost/helpers
 
 ynh_app_setting_set_default --key=php_upload_max_filesize --value=256M
 
-ynh_app_setting_set --key=protect_against_basic_auth_spoofing --value=false
-
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
