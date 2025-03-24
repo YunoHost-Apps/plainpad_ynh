@@ -5,7 +5,9 @@
 
 # YunoHost 上的 Plainpad
 
-[![集成程度](https://dash.yunohost.org/integration/plainpad.svg)](https://dash.yunohost.org/appci/app/plainpad) ![工作状态](https://ci-apps.yunohost.org/ci/badges/plainpad.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/plainpad.maintain.svg)
+[![集成程度](https://apps.yunohost.org/badge/integration/plainpad)](https://ci-apps.yunohost.org/ci/apps/plainpad/)
+![工作状态](https://apps.yunohost.org/badge/state/plainpad)
+![维护状态](https://apps.yunohost.org/badge/maintained/plainpad)
 
 [![使用 YunoHost 安装 Plainpad](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=plainpad)
 
@@ -19,7 +21,8 @@
 Plainpad is a self hosted, open source note taking application that is very easy to setup on your server. Your data will never leave your server and you will be able to access them from any device connected to the internet.
 With Plainpad you can allow multiple users to access the application without being able to see each other's notes. The notes are being encrypted and stored safely in the database.
 
-**分发版本：** 1.0.0~ynh3
+
+**分发版本：** 1.0.0~ynh4
 
 **演示：** <https://alextselegidis.com/try/plainpad/#/login>
 

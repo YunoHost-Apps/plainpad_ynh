@@ -5,7 +5,9 @@ EZ editatu eskuz.
 
 # Plainpad YunoHost-erako
 
-[![Integrazio maila](https://dash.yunohost.org/integration/plainpad.svg)](https://dash.yunohost.org/appci/app/plainpad) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/plainpad.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/plainpad.maintain.svg)
+[![Integrazio maila](https://apps.yunohost.org/badge/integration/plainpad)](https://ci-apps.yunohost.org/ci/apps/plainpad/)
+![Funtzionamendu egoera](https://apps.yunohost.org/badge/state/plainpad)
+![Mantentze egoera](https://apps.yunohost.org/badge/maintained/plainpad)
 
 [![Instalatu Plainpad YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=plainpad)
 
@@ -19,7 +21,8 @@ EZ editatu eskuz.
 Plainpad is a self hosted, open source note taking application that is very easy to setup on your server. Your data will never leave your server and you will be able to access them from any device connected to the internet.
 With Plainpad you can allow multiple users to access the application without being able to see each other's notes. The notes are being encrypted and stored safely in the database.
 
-**Paketatutako bertsioa:** 1.0.0~ynh3
+
+**Paketatutako bertsioa:** 1.0.0~ynh4
 
 **Demoa:** <https://alextselegidis.com/try/plainpad/#/login>
 
