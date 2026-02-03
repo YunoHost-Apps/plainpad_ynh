@@ -7,7 +7,7 @@ name = "Plainpad"
 description.en = "Note taking application"
 description.fr = "Prise de notes auto-hébergée"
 
-version = "1.0.0~ynh4"
+version = "1.1.0~ynh1"
 
 maintainers = []
 
@@ -48,8 +48,8 @@ ram.runtime = "50M"
 [resources]
 
     [resources.sources.main]
-    url = "https://github.com/alextselegidis/plainpad/releases/download/1.0.0/plainpad-1.0.0.zip"
-    sha256 = "7917e6c4f34f7b6a2095154e95fd5c989deed4f82a8d97e6fa99b534914c3603"
+    url = "https://github.com/alextselegidis/plainpad/releases/download/1.1.0/plainpad-1.1.0.zip"
+    sha256 = "078af4f3f1096da5379335f0c7534c52c42ea263fb82a23ee875fe4d13249b08"
     in_subdir = false
 
     # Upstream has no proper tag nor releases ...
@@ -72,12 +72,12 @@ ram.runtime = "50M"
     [resources.apt]
     packages = [
         "mariadb-server",
-        "php8.3-zip",
-        "php8.3-fileinfo",
-        "php8.3-xml",
-        "php8.3-bcmath",
-        "php8.3-mbstring",
-        "php8.3-mysql",
+        "php8.4-zip",
+        "php8.4-fileinfo",
+        "php8.4-xml",
+        "php8.4-bcmath",
+        "php8.5-mbstring",
+        "php8.5-mysql",
     ]
 
     [resources.database]
