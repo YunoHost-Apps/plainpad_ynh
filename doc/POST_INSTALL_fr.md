@@ -1,5 +1,5 @@
 Les identifiants par défaut sont :
 ```
 username: admin@example.org
-password: 12345
+password: 12345678
 ```
